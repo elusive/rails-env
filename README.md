@@ -7,8 +7,12 @@ cloned into the student's directory you can add a dockerfile for their project.
 1. Clone the repository:
   ```
     git clone https://github.com/elusive/rails-env.git
+    cd rails-env
   ```
 2. Copy the "new-student" directory and rename for a student or author.
+  ```
+  cp new-student NEW_NAME
+  ```
 3. ` cd` into the new directory
 4. Clone project (rails app) repository inside the directory.
 5. Edit the dockerfile for the newly cloned project:
