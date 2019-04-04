@@ -30,4 +30,4 @@
 /config/application.yml
 
 # Ignore uploads folder
-/public/uploads
+/public/uploadsapplication.yml
