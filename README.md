@@ -11,7 +11,7 @@ cloned into the student's directory you can add a dockerfile for their project.
   ```
 2. Copy the "new-student" directory and rename for a student or author.
   ```
-  cp new-student NEW_NAME
+  cp -r new-student NEW_NAME
   ```
 3. ` cd` into the new directory
 4. Clone project (rails app) repository inside the directory.
@@ -44,5 +44,8 @@ any commands we might need to, inside of the dev environment.  I.e.:
 ```
   docker-compose run web rake db:migrate
 ```
+
+## Future
+Future plans include adding use of docker-compose override files to eliminate editing of files but rather adding a file per student directory that can update the path.
 
 Questions or problems please enter an issue or email me: john.c.gilliland@gmail.com
